@@ -67,13 +67,11 @@ shinyUI(
                         selectInput("countryInput2", "Country",
                                     choices = c( "ALL"  ,"United States", "Germany","United Kingdom"
                                                  ,"Russian Federation","Ireland","Netherlands","Luxembourg"))),
-                      mainPanel( plotOutput("treeoutput")))
-             
-             
-             
-             
-             
-             
+                      mainPanel( plotOutput("treeoutput"))),
+             tabPanel("About",
+                h3("This dataset includes information on websites, global traffic rank and average visitor count and relevant information with regards to website."),
+                h3("Our product app is 'What we Do Online', which emphasizes on activities of users, website content, evaluation of website by security, privacy and child friendly across the globe.")
+)
              )
   
   
