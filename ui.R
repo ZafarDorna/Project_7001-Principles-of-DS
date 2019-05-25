@@ -69,8 +69,8 @@ shinyUI(
                                                  ,"Russian Federation","Ireland","Netherlands","Luxembourg"))),
                       mainPanel( plotOutput("treeoutput"))),
              tabPanel("About",
-                h3("This dataset includes information on websites, global traffic rank and average visitor count and relevant information with regards to website."),
-                h3("Our product app is 'What we Do Online', which emphasizes on activities of users, website content, evaluation of website by security, privacy and child friendly across the globe.")
+                h3("The dataset contains Top 50 ranked sites from each 191 countries along with their traffic (global) rank. This dataset includes information on websites, global traffic rank and average visitor count and relevant information with regards to website."),
+                h3("Our product app is 'What we Do Online', which emphasizes on activities of users, website content, evaluation of website by security, privacy and child friendly across the globe. How popularity of websites varies based on location is shown by selecting region and type of website.")
 )
              )
   
