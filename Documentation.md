@@ -19,19 +19,19 @@ https://www.kaggle.com/bpali26/popular-websites-across-the-globe
 
 ## Tools  that used in this project
 
-RStudio
+RStudio -
 Shiny App
 
 ## Libraries that used in this project
 
-shiny
-dplyr
-ggplot2
-ggpubr
-plotly
-readr
-RColorBrewer
-gridExtra
-stringr
-tidyr
+shiny -
+dplyr -
+ggplot2 -
+ggpubr -
+plotly -
+readr -
+RColorBrewer -
+gridExtra -
+stringr -
+tidyr -
 treemap
